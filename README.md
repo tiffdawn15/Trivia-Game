@@ -1,15 +1,8 @@
 # Trivia-Game
 
-___________.__             ____   ____             __                         __________                           
-\__    ___/|  |__   ____   \   \ /   /____   _____/  |_ __ _________   ____   \______   \_______  ____  ______     
-|    |   |  |  \_/ __ \   \   Y   // __ \ /    \   __\  |  \_  __ \_/ __ \   |    |  _/\_  __ \/  _ \/  ___/     
-|    |   |   Y  \  ___/    \     /\  ___/|   |  \  | |  |  /|  | \/\  ___/   |    |   \ |  | \(  <_> )___ \      
-|____|   |___|  /\___  >    \___/  \___  >___|  /__| |____/ |__|    \___  >  |______  / |__|   \____/____  > /\  
-\/     \/                \/     \/                        \/          \/                   \/  \/  
 
+The Venture Bros. 
 
-
-Note: When I pushed to github I changed folders and lost my commit history. I commited several times daily. (Sorry guys) 
 
 
 Description:
@@ -20,7 +13,7 @@ Description:
         
 
 List of Features / User Stories:
-    -The user Story
+    -The User Story:
         - Once the user logs in they should automatically start with the first question. 
         - Clicking on the correct answer: 
             - An alert will appear saying "Go Team Venture!"
