@@ -14,28 +14,65 @@ Note: When I pushed to github I changed folders and lost my commit history. I co
 
 Description:
     - What your project is / should be used for
-        - This is a trivia game for based off The Venture Bros tv show. 
+        - This is a trivia game for based off The Venture Bros TV show. 
+        
         
         
 
 List of Features / User Stories:
-    -The user 
+    -The user Story
+        - Once the user logs in they should automatically start with the first question. 
+        - Clicking on the correct answer: 
+            - An alert will appear saying "Go Team Venture!"
+            - One is added to the score (viewed about the question)
+            - Next question appears 
+        - Clicking on the incorrect answer: 
+            -A popup will appear with a picture of "The Mighty Monarch"
+            - Click "x" to exit the poup 
+            -Next question appears 
+                
 
 
 
 
-This typically will be a short list of the features / user stories that you planned during the development phase of the project
 To provide more detail, you can show how you categorized these features into Bronze (MVP), Silver, and Gold Levels and indicate which features you complete / have yet to complete
+
+Bronze Level Features: 
+- Have a quiz with 10 Venture Bros questions on one page
+-Make it self scoring - Shows results after you hit the submit button
+-Wrong answer page 
+
+Silver Level Features: 
+
+- Page at the begginning w/ start button
+- Page at the end with score
+-
+
+Gold Level Features: 
+Animation that lets hank and dean touch fingers in a V and “Go Team Venture” pops up every time you get a correct answer (I'm not sure this is possible)
+Have more questions than just 10 
+Make questions random 
+Make a spoiler version 
+
+
+
+
+
 List of Technologies Used
-Often you will want to list the technologies you used to create the project.
-This typically would consist of all primary languages, frameworks, and libraries your app is composed of
-This is particularly important when it comes to recruiters scanning your projects for keywords
+* HTML
+* CSS 
+* Vanilla JS
+
+
+
 Installation Instructions / Getting Started
-This section should walk a reader, step by step, through the process of setting up your project
-For a tool meant to be integrated into other projects, this would likely outline the process of installing and accessing this tool in your project
-For an application, this would likely outline the process of forking, cloning, and starting the app locally
+- This application loads in the browser
+    - Fork Rep 
+    - Clone SSH
+    - Open html file locally 
+
+
 Contribution Guidelines
-This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements
-Good links to include are:
-A link to the project's main repository
-A link to the project's issue tracker
+- Feel free to add a pull request with any additional questions, or features. 
+
+
