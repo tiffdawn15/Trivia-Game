@@ -13,16 +13,16 @@ Description:
         
 
 List of Features / User Stories:
-    -The User Story:
-        - Once the user logs in they should automatically start with the first question. 
-        - Clicking on the correct answer: 
-            - An alert will appear saying "Go Team Venture!"
-            - One is added to the score (viewed about the question)
-            - Next question appears 
-        - Clicking on the incorrect answer: 
-            -A popup will appear with a picture of "The Mighty Monarch"
-            - Click "x" to exit the poup 
-            -Next question appears 
+    *The User Story:
+        * Once the user logs in they should automatically start with the first question. 
+        * Clicking on the correct answer: 
+            *  An alert will appear saying "Go Team Venture!"
+            * One is added to the score (viewed about the question)
+            * Next question appears 
+        * Clicking on the incorrect answer: 
+            * A popup will appear with a picture of "The Mighty Monarch"
+            *  Click "x" to exit the poup 
+            * Next question appears 
                 
 
 
@@ -37,15 +37,14 @@ Bronze Level Features:
 
 Silver Level Features: 
 
-- Page at the begginning w/ start button
-- Page at the end with score
--
+* Page at the begginning w/ start button
+* Page at the end with score
+
 
 Gold Level Features: 
-Animation that lets hank and dean touch fingers in a V and “Go Team Venture” pops up every time you get a correct answer (I'm not sure this is possible)
-Have more questions than just 10 
-Make questions random 
-Make a spoiler version 
+* Animation that lets hank and dean touch fingers in a V and “Go Team Venture” pops up every time you get a correct answer    * Have more questions than just 10 
+* Make questions random 
+* Make a spoiler version 
 
 
 
@@ -59,13 +58,13 @@ List of Technologies Used
 
 
 Installation Instructions / Getting Started
-- This application loads in the browser
-    - Fork Rep 
-    - Clone SSH
-    - Open html file locally 
+* This application loads in the browser
+    * Fork Rep 
+    * Clone SSH
+    * Open html file locally 
 
 
 Contribution Guidelines
-- Feel free to add a pull request with any additional questions, or features. 
+* Feel free to add a pull request with any additional questions, or features. 
 
 
