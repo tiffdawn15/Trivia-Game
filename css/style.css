@@ -1,0 +1,92 @@
+body{
+    background-color: #FFE712;
+
+     text-align: center;
+     font-family: 'Kalam', cursive;
+
+     
+     
+}
+.hero-image{
+    background-image: url("https://fanart.tv/fanart/tv/72306/hdtvlogo/the-venture-bros-5812494e0ced3.png");
+
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    position: relative;
+}
+
+
+.question{
+    font-size: 30px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button{
+    font-family: 'Kalam', cursive;
+    padding: 10px;
+    margin: 10px;
+    font-size: 14px;
+    height: 50px;
+    width: 200px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+
+
+question-box {
+    height: 100px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+/* CSS for the modal here  */
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* background-color: white; */
+
+}
+
+.modal-content{
+    background-color: #C07D0A;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #6E0A01;
+  text-decoration: none;
+  cursor: pointer;
+}
+img{
+    float: center;
+    width: 400px; 
+    height: 400px;
+}
