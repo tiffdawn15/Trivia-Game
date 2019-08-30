@@ -7,6 +7,17 @@ body{
      
      
 }
+
+main {
+    background-color: #fff492;
+    height: 100%;
+    
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    
+}
+
 .hero-image{
     background-image: url("https://fanart.tv/fanart/tv/72306/hdtvlogo/the-venture-bros-5812494e0ced3.png");
 
