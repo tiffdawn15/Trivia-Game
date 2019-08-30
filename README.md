@@ -6,13 +6,15 @@ The Venture Bros.
 
 
 Description:
-    - What your project is / should be used for
-        - This is a trivia game for based off The Venture Bros TV show. 
+
+    *  What your project is / should be used for
+        -*  This is a trivia game for based off The Venture Bros TV show. 
         
         
         
 
 List of Features / User Stories:
+
     *The User Story:
         * Once the user logs in they should automatically start with the first question. 
         * Clicking on the correct answer: 
