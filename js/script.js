@@ -34,24 +34,11 @@ var scored = document.querySelector(".scored")
 var modal = document.querySelector(".modal")
 var span = document.querySelector(".close");
 
+//Correct answer var
+var correctAnswer = document.querySelector(".correct-answer-modal")
+var carrectSpan = document.querySelector(".close-correct")
 
 
-//Making array of the different questions and answers
-//In the scheme of things this doesn't do anything 
-
-// class Quiz {
-//     constructor(questions) {
-//         this.score = 0;
-//         this.questions = questions;
-//         this.questionIndex = 0;
-//     }
-//     //Should this be a for loop instead? 
-//     getQuestionIndex() {
-//         return this.questions[this.questionIndex]
-
-
-//     }
-// }
 
 class Question {
     constructor(text, choices, answer) {
@@ -91,6 +78,7 @@ const question10 = new Question("Who is Hunter Gather's charachter based on?", [
 
 
 const questionList = [question1, question2, question3, question4, question5, question6, question7, question8, question9,question10]
+
 var questionListLength = questionList.length
 
 // const ventureBrosQuiz = new Quiz(questionList)
@@ -148,7 +136,16 @@ function checkIfCorrect(choice) {
     
 
     if (choice === questionList[questionNumber].answer) {
-        alert("Go Team Venture!")
+        correctAnswer.style.display = "block"
+
+        // span.addEventListener
+        
+        carrectSpan.onclick = function() {
+            correctAnswer.style.display = "none";
+          }
+
+
+
         score++
         console.log(score)
         scored.innerHTML = score;
@@ -173,7 +170,9 @@ function checkIfCorrect(choice) {
 
 function endOfGame(){
     if(questionList[9]){
-        console.log("End of game")
+        alert("Thanks for playing")
+
+
     }
 }
 

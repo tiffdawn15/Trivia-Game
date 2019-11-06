@@ -7,6 +7,22 @@ body{
      
      
 }
+
+.score-box{
+    float: left;
+    padding: 50px;
+}
+
+main {
+    background-color: #fff492;
+    height: 100%;
+    margin: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.9;
+    
+}
+
 .hero-image{
     background-image: url("https://fanart.tv/fanart/tv/72306/hdtvlogo/the-venture-bros-5812494e0ced3.png");
 
@@ -21,6 +37,8 @@ body{
 
 .question{
     font-size: 30px;
+   
+    
 }
 
 .buttons {
@@ -64,7 +82,7 @@ question-box {
 }
 
 .modal-content{
-    background-color: #C07D0A;
+    background-color: #FEC247;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid black;
@@ -89,4 +107,42 @@ img{
     
     width: 400px; 
     height: 400px;
+}
+
+/* //correct answer modal */
+
+.correct-answer-modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* background-color: white; */
+
+}
+
+.correct-modal{
+    background-color: #FEC247;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+}
+
+.close-correct {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-correct:hover,
+.close-correct:focus {
+  color: #6E0A01;
+  text-decoration: none;
+  cursor: pointer;
 }

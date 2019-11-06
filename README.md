@@ -1,6 +1,6 @@
 # Trivia-Game
 
-https://tiffdawn15.github.io/Trivia-Game/
+
 
 
 Description:
