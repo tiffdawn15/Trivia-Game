@@ -75,9 +75,10 @@ const question7 = new Question("Who is the Mighty Monarch's father?", ["Blind Ra
 const question8 = new Question("What is the name of Dr. Orpheus' Daughter?", ["Triana", "Lisa Hammer", "Raven", "Tatyana"], "Triana")
 const question9 = new Question("Who was Dr. Girlfriend's ex boyfriend?", ["Professor Fantomas", "Hank", "Dr. Venture", "Phantom Limb"], "Phantom Limb")
 const question10 = new Question("Who is Hunter Gather's charachter based on?", ["Hunter S Thompson", "Letterkenny", "Ralph Steadman", "Gonzo"], "Hunter S Thompson")
+const theEnd = new Question("Thanks for playing", ["Thanks for coming", "Glad you were here", "Text", "Text"], "Thanks for coming")
 
 
-const questionList = [question1, question2, question3, question4, question5, question6, question7, question8, question9,question10]
+const questionList = [question1, question2, question3, question4, question5, question6, question7, question8, question9,question10, theEnd]
 
 var questionListLength = questionList.length
 
@@ -87,7 +88,7 @@ var questionListLength = questionList.length
 
 
 
-console.log(questionList[1])
+console.log(questionList[9])
 
 //Trying to get the text into the html file
 
@@ -169,7 +170,7 @@ function checkIfCorrect(choice) {
 }
 
 function endOfGame(){
-    if(questionList[9]){
+    if(questionNumber === 10){
         alert("Thanks for playing")
 
 

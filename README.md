@@ -1,11 +1,5 @@
 # Trivia-Game
 
-<<<<<<< HEAD
-
-=======
-https://tiffdawn15.github.io/Trivia-Game/
->>>>>>> 2fbbdc8a8683d4c8e9a62eb9499604d68f754bef
-
 
 Description:
 
