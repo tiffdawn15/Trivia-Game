@@ -82,7 +82,7 @@ question-box {
 }
 
 .modal-content{
-    background-color: #C07D0A;
+    background-color: #FEC247;
     margin: 15% auto;
     padding: 20px;
     border: 1px solid black;
@@ -107,4 +107,42 @@ img{
     
     width: 400px; 
     height: 400px;
+}
+
+/* //correct answer modal */
+
+.correct-answer-modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    /* background-color: white; */
+
+}
+
+.correct-modal{
+    background-color: #FEC247;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid black;
+    width: 80%;
+    height: 60%;
+}
+
+.close-correct {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-correct:hover,
+.close-correct:focus {
+  color: #6E0A01;
+  text-decoration: none;
+  cursor: pointer;
 }
