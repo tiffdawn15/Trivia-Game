@@ -1,14 +1,10 @@
-body{
+body {
     background-color: #FFE712;
-
-     text-align: center;
-     font-family: 'Kalam', cursive;
-
-     
-     
+    text-align: center;
+    font-family: 'Kalam', cursive;
 }
 
-.score-box{
+.score-box {
     float: left;
     padding: 50px;
 }
@@ -20,43 +16,35 @@ main {
     padding: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 0.9;
-    
+
 }
 
-.hero-image{
+.hero-image {
     background-image: url("https://fanart.tv/fanart/tv/72306/hdtvlogo/the-venture-bros-5812494e0ced3.png");
-
     height: 300px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-   
     position: relative;
 }
 
-
-.question{
+.question {
     font-size: 30px;
-   
-    
 }
 
 .buttons {
     margin-top: 30px;
 }
 
-button{
+button {
     font-family: 'Kalam', cursive;
     padding: 10px;
     margin: 10px;
     font-size: 14px;
     height: 50px;
     width: 200px;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
-
-
 
 question-box {
     height: 100px;
@@ -67,13 +55,12 @@ question-box {
 }
 
 /* CSS for the modal here  */
-
-.modal{
+.modal {
     display: none;
     position: fixed;
     z-index: 1;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -81,7 +68,7 @@ question-box {
 
 }
 
-.modal-content{
+.modal-content {
     background-color: #FEC247;
     margin: 15% auto;
     padding: 20px;
@@ -91,40 +78,40 @@ question-box {
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #6E0A01;
-  text-decoration: none;
-  cursor: pointer;
+    color: #6E0A01;
+    text-decoration: none;
+    cursor: pointer;
 }
-img{
-    
-    width: 400px; 
+
+img {
+
+    width: 400px;
     height: 400px;
 }
 
-/* //correct answer modal */
+/* correct answer modal */
 
-.correct-answer-modal{
+.correct-answer-modal {
     display: none;
     position: fixed;
     z-index: 1;
-    left:0;
-    top:0;
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     overflow: auto;
-    /* background-color: white; */
 
 }
 
-.correct-modal{
+.correct-modal {
     background-color: #FEC247;
     margin: 15% auto;
     padding: 20px;
@@ -134,15 +121,15 @@ img{
 }
 
 .close-correct {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close-correct:hover,
 .close-correct:focus {
-  color: #6E0A01;
-  text-decoration: none;
-  cursor: pointer;
+    color: #6E0A01;
+    text-decoration: none;
+    cursor: pointer;
 }
